@@ -8,7 +8,7 @@ deploy:
   api_key:
     secure: "KLitulBaPudOG1priiTFF9YmnT7p6QC4QhT+sa+N1KB6mmJneiYrz3jB3zC+zw1W+T9YV92TLCig44dzF+UFG5l2rwkOb9TDfyNw3b4Sr4quQbeakpg7v2Q3HBYXMrGoBEvMwIB6/UyB4/8mf7h3x1w0DCkLktREOYngnKWky3v74Qj4jGehy14H/TvH5e/2i3Dr4x+zwKpHQLT/1/plv15Nh/Ydueb5ECgWT84DWi0MGLVN5FiNbhcYTHm6coRRTKNIj31hYdYzn9BMuz5fNoDNiEmkEy0dlWVjct9/kuuY69nCaEVfx7saW3RYU/l9yBp+jx75mcisSgBS4pPjLN65ZApX4SUeRFiwrnJK7Z2D86uI6q+LQyrcg1SIgJaF5BUJzfP+4IXoAQvbK072pW/Ji26aQvH6B+H2+6Dz9OfNkHrXR1ARcbCenb7vGphhbVnkxhbR2lM8tcx7FUYptcILNy/yMNayOxD6RdP6t/cudSLFNgYk5gPPOyCtM//BBsOux/vp0bl/WRZR9Ine3WBEt+5Olw4S0/ogzylGHU9trSYDq6u8c9dHmmV0SBGcV+69Ag7u6EsBxFRlexBK2gIo5VNEHd5GHQA+AvhJ67ES5XAs2z42bzKf8O1rMDsZovePVo9W4Ao8hkCSHt+dno5bhzWBuNVXRcsYXZDM5g4="
   file:
-    - target/ebms-adapter-web-$project_version.zip
+    - target/ebms-adapter-web-$project_version.war
   skip_cleanup: true
   on:
     repo: java-ebms-adapter/ebms-adapter-web
