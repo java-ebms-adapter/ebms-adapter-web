@@ -50,17 +50,11 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
+            <groupId>com.gitlab.java-ebms-adapter</groupId>
+            <artifactId>ebms-core</artifactId>
+            <version>2.15.2-mic</version>
         </dependency>
-        <dependency>
-            <groupId>org.dbunit</groupId>
-            <artifactId>dbunit</artifactId>
-            <version>2.5.0</version>
-            <scope>test</scope>
-        </dependency>
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -103,11 +97,6 @@
             <version>${activemq.version}</version>
         </dependency>
         <dependency>
-            <groupId>nl.clockwork.ebms</groupId>
-            <artifactId>ebms-core</artifactId>
-            <version>2.15.2-mic</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-jms_1.1_spec</artifactId>
             <version>1.1.1</version>
@@ -132,6 +121,7 @@
             <artifactId>hsqldb</artifactId>
             <version>2.3.2</version>
         </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -156,6 +146,20 @@
         <!--			<version>12.1.0.2</version>-->
         <!--			<scope>runtime</scope>-->
         <!--		</dependency>-->
+
+        <!-- Test -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.dbunit</groupId>
+            <artifactId>dbunit</artifactId>
+            <version>2.5.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <repositories>
